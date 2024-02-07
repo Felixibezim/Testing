@@ -19,6 +19,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .content-box> .img-box> a> img{
   width: 90%;
