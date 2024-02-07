@@ -1,0 +1,138 @@
+body{margin: 0px;}
+
+.menu{
+  display: flex;
+  background-color: navy;
+  color: white;
+  font-family: arial;
+  text-align: center;
+  padding: 10px;
+  justify-content: space-around;
+}
+.menu> .navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu> .navigation> div{
+  padding: 2px;
+  width: 100px;
+  border-radius: 10px;
+}
+.menu> .navigation> div> a{
+  transition: 0.6s;
+}
+.menu>.navigation> div :hover{
+  color: goldenrod;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.header h1{text-align: center;
+  font-weight: bolder;
+  font-size: 3em;
+  font-family: bandana;
+  background-color: rgb(102, 204, 255);
+  margin: 0px;
+  padding: 20px;
+  border-bottom: solid rgb(255, 191, 102);
+  border-width: 2px;
+
+  
+}
+
+
+.menu-icon-button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.menu-icon-button> .button{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:120px;
+  height: 50px;
+  
+}
+  
+
+#button1> a> button{
+  background-color: red;
+  color: white;
+  font-size: 1em;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+#button2> a> button{
+  background-color: navy;
+  color: white;
+  font-size: 1em;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  
+}
+
+menu-icon-button> .menu-icon> i{
+  align-items: center;
+  padding: 1px 5px;
+  width: 10px;
+  color: navy;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: navy;
+  font-weight: lighter;
+  font-family: roboto;
+  color: white;
+  padding: 25px;
+  
+}
+footer> .footer-content1{
+  display: flex; 
+  flex-direction: column;
+  align-items: flex-start;
+  grid-gap: 8px;
+  
+}
+footer> .footer-content1> div{
+  padding: 3px;
+  transition: 0.5s;
+  
+}
+
+footer> .footer-content1> div:hover{
+  border-bottom: 2px solid goldenrod;
+  border-radius: 10px;
+}
+footer> .footer-content3> a{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  
+}
+
+footer> .footer-content2{
+  display: flex; 
+  flex-direction: column;
+  align-items: flex-start;
+  grid-gap: 8px;
+  
+}
+footer> .footer-content2> div{
+  padding: 3px;
+  transition: 0.5s;
+}
+
+footer> .footer-content2> div:hover{
+  border-bottom: 2px solid goldenrod;
+  border-radius: 10px;
+}
