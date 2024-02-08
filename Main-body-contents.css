@@ -16,14 +16,12 @@
   
 }
 .content-box> .img-box{
-  border: 2px black solid;
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .content-box> .img-box> a> img{
-  width: 100%;
+  width: 90%;
   height: 250px;
   padding: 5px;
 }
