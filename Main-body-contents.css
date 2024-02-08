@@ -21,7 +21,7 @@
   justify-content: center;
 }
 .content-box> .img-box> a> img{
-  width: 130;
+  width: 130px;
   height: 250px;
   padding-top: 5px;
 }
