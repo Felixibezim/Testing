@@ -34,6 +34,8 @@
   background-color: navy;
   color: white;
   text-shadow: 0px 0px 5px white;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 .content-box> label{
   display: flex;
