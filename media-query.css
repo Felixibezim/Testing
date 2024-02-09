@@ -1,0 +1,59 @@
+@media(max-width: 615px){
+  
+.body-content-box{
+  display: grid;
+  height: auto;
+  width: 100%;
+  grid-gap: 50px;
+  justify-content: center;
+  padding-top: 20px;
+}
+.content-box{
+  border: 2px solid goldenrod;
+  border-radius: 5px;
+  background-color: goldenrod;
+  display: grid;
+  width: auto;
+  height: auto;
+  
+}
+.content-box> .img-box{
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px; 
+}
+.content-box> .img-box> a> img{
+  width: 200px;
+  height: 250px;
+}
+
+.content-box> .price{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-color: navy;
+  color: white;
+  text-shadow: 0px 0px 5px white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.content-box> label{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: roboto;
+  color: navy;
+  font-size: 18px;
+  background-color: goldenrod;
+  padding: 3px;
+  text-align: center;
+  text-shadow: 0px 0px 10px navy;
+}
+.Space{height: 30px}
+  
+}
+
