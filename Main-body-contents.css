@@ -5,28 +5,29 @@
   flex-wrap: wrap;
   grid-gap: 20px;
   justify-content: space-evenly;
+  padding-top: 10px;
 }
 .content-box{
   border: 2px solid goldenrod;
   border-radius: 5px;
   background-color: goldenrod;
   display: grid;
-  width: 40%;
+  width: auto;
   height: auto;
   
 }
 .content-box> .img-box{
-  width: 100%;
+  width: 350px;
   height: auto;
   display: flex;
   justify-content: center;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .content-box> .img-box> a> img{
-  width: 100%;
+  width: 350px;
   height: 400px;
-  padding-top: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
 }
 
 .content-box> .price{
