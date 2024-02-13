@@ -1,12 +1,13 @@
 @media(max-width: 615px){
+
 .body-content-box{
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   height: auto;
   width: 100%;
-  flex-wrap: wrap;
-  grid-gap: 20px;
-  justify-content: space-evenly;
-  padding-top: 10px;
+  grid-gap: 50px;
+  padding-top: 20px;
 }
 .content-box{
   border: 2px solid goldenrod;
@@ -18,17 +19,17 @@
   
 }
 .content-box> .img-box{
-  width: 350px;
-  height: auto;
   display: flex;
+  width: auto;
+  height: auto;
   justify-content: center;
   padding-top: 5px;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 10px; 
 }
 .content-box> .img-box> a> img{
-  width: 350px;
-  height: 400px;
+  width: 130px;
+  height: 180px;
 }
 
 .content-box> .price{
@@ -41,7 +42,6 @@
   text-shadow: 0px 0px 5px white;
   padding-top: 5px;
   padding-bottom: 5px;
-  font-size: 1em;
 }
 .content-box> label{
   display: flex;
@@ -49,11 +49,12 @@
   align-content: center;
   font-family: roboto;
   color: navy;
-  font-size: 20px;
+  font-size: 18px;
   background-color: goldenrod;
   padding: 3px;
   text-align: center;
   text-shadow: 0px 0px 10px navy;
 }
-.Space{height: 10px}
+.Space{height: 30px}
+
 }
