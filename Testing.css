@@ -1,5 +1,9 @@
-body{margin: 0px;}
-
+@media(max-width: 615px){
+  
+body{
+  margin: 0px;
+}
+  
 .menu{
   display: flex;
   background-color: navy;
@@ -140,4 +144,5 @@ footer> .footer-content2> div{
 footer> .footer-content2> div:hover{
   border-bottom: 2px solid goldenrod;
   border-radius: 10px;
+}
 }
