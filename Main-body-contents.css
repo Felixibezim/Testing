@@ -20,16 +20,16 @@
 }
 .content-box> .img-box{
   display: flex;
-  width: 130px;
-  height: 180px;
+  width: auto;
+  height: auto;
   justify-content: center;
   padding-top: 5px;
   padding-left: 10px;
   padding-right: 10px; 
 }
 .content-box> .img-box> a> img{
-  width: 100%;
-  height: 100%;
+  width: 130px;
+  height: 180px;
 }
 
 .content-box> .price{
