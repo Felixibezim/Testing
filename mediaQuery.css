@@ -1,5 +1,10 @@
 @media (max-width: 615px){
+  .body-content-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
   .header{width: 100%;}
   .menu {width: 100%;}
-  .footer{width: 100%}
+  .footer-content{width: 100%}
 }
